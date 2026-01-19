@@ -77,5 +77,13 @@ Original file is located at
 
 
 
+st.set_page_config(page_title="Test Macha", page_icon="🔥")
+
+st.title("Hello Macha! App Started 🔥")
+st.write("This is a test. If you see this, app works!")
+st.balloons()
+
+
+
 
 
