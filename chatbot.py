@@ -22,9 +22,6 @@ Original file is located at
 # import tempfile
 
 import streamlit as st
-from langchain_google_genai import ChatGoogleGenerativeAI
-
-
 st.set_page_config(
     page_title="Chatbot Macha",
     page_icon="",
