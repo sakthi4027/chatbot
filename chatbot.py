@@ -1,5 +1,4 @@
-
-GEMINI_API_KEY = "AIzaSyBSUzDHGF4bMWbF_OH1VEF_utOphDxg-mg"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # -*- coding: utf-8 -*-
 import streamlit as st
