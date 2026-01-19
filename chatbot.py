@@ -1,7 +1,8 @@
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
 # -*- coding: utf-8 -*-
 import streamlit as st
+import os
+import tempfile
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -10,8 +11,13 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
-import os
-import tempfile
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") 
+
+if not GEMINI_API_KEY:
+    st.error("Gemini API key missing! Add it in Manage app → Secrets.")
+    st.stop()
+
 
 # Page config - MUST be first Streamlit command
 st.set_page_config(
