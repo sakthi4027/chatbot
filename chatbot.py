@@ -82,8 +82,6 @@ ngrok.kill()
 public_url = ngrok.connect(8501, bind_tls=True)
 print("hi", public_url)
 
-pkill -f streamlit
-streamlit run app.py --server.port=8501 --server.headless=true &
 
 
 
