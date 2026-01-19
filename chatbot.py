@@ -77,7 +77,7 @@ Original file is located at
 
 
 
-st.set_page_config(page_title="Test Macha")
+st.set_page_config()
 
 st.title("Hello Macha! App Start)
 st.write("This is a test. If you see this, app works!")
