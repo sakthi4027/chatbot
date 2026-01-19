@@ -75,12 +75,6 @@ Original file is located at
 #         except Exception as e:
 #             st.error("Create database first or check API key!")
 
-import time
-time.sleep(10)
-from pyngrok import ngrok
-ngrok.kill()
-public_url = ngrok.connect(8501, bind_tls=True)
-print("hi", public_url)
 
 
 
