@@ -10,7 +10,6 @@ Original file is located at
 !pip install -q streamlit langchain langchain-google-genai langchain-huggingface langchain-chroma langchain-community pypdf chromadb pyngrok
 
 !ngrok config add-authtoken 37EmNlyqmwOkkjZmDOzEIf4Uign_3Xd55MLsK5n35ptRJvjzT
-
 !streamlit run chatbot.ipynb --server.port=8501
 
 # Commented out IPython magic to ensure Python compatibility.
