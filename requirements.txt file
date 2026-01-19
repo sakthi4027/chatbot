@@ -2,11 +2,11 @@ streamlit>=1.39.0
 langchain>=0.3.0
 langchain-core>=0.3.0
 langchain-text-splitters>=0.3.0
-langchain-google-genai==2.0.8  # or 4.2.0 if latest works, but pin older stable
+langchain-google-genai>=2.0.0
 langchain-huggingface
 langchain-chroma
 langchain-community
 pypdf
-chromadb==0.5.5  # pin this to avoid build issues
-orjson==3.10.7   # common fix for orjson build fail in cloud
-pydantic<3.0     # if pydantic conflict
+chromadb==0.5.5
+orjson==3.10.7
+pydantic<3.0
