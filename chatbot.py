@@ -1,4 +1,11 @@
-
+.txt streamlit
+langchain
+langchain-google-genai
+langchain-huggingface
+langchain-chroma
+langchain-community
+pypdf
+chromadb
 
 GEMINI_API_KEY = "AIzaSyBSUzDHGF4bMWbF_OH1VEF_utOphDxg-mg"
 
