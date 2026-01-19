@@ -20,7 +20,19 @@ Original file is located at
 # from langchain_core.output_parsers import StrOutputParser
 # import os
 # import tempfile
-# 
+
+import streamlit as st
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+
+st.set_page_config(
+    page_title="Chatbot Macha",
+    page_icon="",
+    layout="wide",               
+    initial_sidebar_state="auto" 
+)
+st.title("Welcome to My Chatbot ")
+
 # 
 # os.environ["GEMINI_API_KEY"] ="AIzaSyAr0oVllhtfgplb16y0But3h7aa9scdRKs"
 # 
@@ -77,11 +89,6 @@ Original file is located at
 
 
 
-st.set_page_config()
-
-st.title()
-st.write()
-st.balloons()
 
 
 
