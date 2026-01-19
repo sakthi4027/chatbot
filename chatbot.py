@@ -79,8 +79,8 @@ Original file is located at
 
 st.set_page_config()
 
-st.title("Hello Macha! App Start)
-st.write("This is a test. If you see this, app works!")
+st.title(App Start)
+st.write(If you see this, app works)
 st.balloons()
 
 
