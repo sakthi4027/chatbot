@@ -79,8 +79,8 @@ Original file is located at
 
 st.set_page_config()
 
-st.title(App Start)
-st.write(If you see this, app works)
+st.title()
+st.write()
 st.balloons()
 
 
