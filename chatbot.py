@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1TCZxNMqM2IRWDz3-7NJj0zo_G57AjodX
 """
 
-text pip install -q streamlit langchain langchain-google-genai langchain-huggingface langchain-chroma langchain-community pypdf chromadb pyngrok
-
-
-text streamlit run chatbot.ipynb --server.port=8501
-
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 # import streamlit as st
